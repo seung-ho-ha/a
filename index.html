@@ -5,9 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로컬 이미지 표시</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+        img {
+            width: 90vw;
+            height: auto;
+            max-height: 90vh;
+            object-fit: contain;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <h1>로컬 이미지 보여주기</h1>
     <img src="250505_01.jpeg" alt="250505_01 이미지" />
     <img src="250505_02.jpeg" alt="250505_02 이미지" />
 </body>
